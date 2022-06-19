@@ -17,7 +17,7 @@ fun Application.configureRouting() {
         }
         allUsers()
         // Static plugin. Try to access `/static/index.html`
-        static("/static") {
+        static("/image") {
             resources("static")
         }
     }
