@@ -4,7 +4,7 @@ package com.example.route
 class UserRepository {
 
     val userList = listOf<User>(
-        User(name = "Toyyib", age = "10", pic = "/image/test.png"),
+        User(name = "Toyyib Edited", age = "10", pic = "/image/test.png"),
         User(name = "Shuaib", age = "12", pic = "/image/test.png"),
         User(name = "Lukman", age = "14"),
         User(name = "Fatima", age = "9", pic = "/image/test.png"),
