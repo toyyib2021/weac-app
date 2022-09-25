@@ -1,1 +1,1 @@
-web: build/install/com.example.weac/bin/com.example.weac
+web: build/install/com.example.questionweac/bin/com.example.questionweac

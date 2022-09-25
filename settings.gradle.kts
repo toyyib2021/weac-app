@@ -1,1 +1,1 @@
-rootProject.name = "com.example.weac"
+rootProject.name = "com.example.questionweac"
