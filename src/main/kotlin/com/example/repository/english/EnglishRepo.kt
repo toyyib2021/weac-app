@@ -1,7 +1,7 @@
-package com.pktech.data.repository.english
+package com.example.repository.english
 
-import com.pktech.domain.model.Objective
-import com.pktech.domain.model.Questions
+import com.example.repository.Objective
+import com.example.repository.Questions
 
 class EnglishRepo {
     private val section1 = "In the sentence below, there is one underlined word and one gap. From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the underlined word and that will, at the same time correctly fill the gap in the sentence."

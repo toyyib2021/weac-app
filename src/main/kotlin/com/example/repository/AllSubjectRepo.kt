@@ -1,7 +1,7 @@
 package com.example.repository
 
-import com.pktech.data.repository.english.EnglishRepo
-import com.pktech.data.repository.maths.MathsRepoDB
+import com.example.repository.english.EnglishRepo
+import com.example.repository.maths.MathsRepoDB
 
 class AllSubjectRepo {
 

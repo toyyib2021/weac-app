@@ -1,7 +1,7 @@
-package com.pktech.data.repository.maths
+package com.example.repository.maths
 
-import com.pktech.domain.model.Objective
-import com.pktech.domain.model.Questions
+import com.example.repository.Objective
+import com.example.repository.Questions
 
 class MathsRepoDB {
 
