@@ -1,5 +1,6 @@
 package com.example.plugins
 
+import com.example.route.accountAllYears
 import com.example.route.englishAllYears
 import com.example.route.mathematicsAllYears
 import io.ktor.server.routing.*
@@ -16,6 +17,7 @@ fun Application.configureRouting() {
         }
         englishAllYears()
         mathematicsAllYears()
+        accountAllYears()
         // Static plugin. Try to access `/static/index.html`
         static("/image") {
             resources("static")

@@ -1,9 +1,9 @@
-package com.pktech.data.repository.account
+package com.example.repository.account
 
+import com.example.repository.Objective
+import com.example.repository.Questions
+import com.example.repository.Theory
 
-import com.pktech.domain.model.Objective
-import com.pktech.domain.model.Questions
-import com.pktech.domain.model.Theory
 
 class Account2012Repo {
 

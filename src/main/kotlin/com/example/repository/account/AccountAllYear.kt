@@ -1,7 +1,6 @@
 package com.example.repository.account
 
 import com.example.repository.Subjects
-import com.pktech.data.repository.account.Account2012Repo
 
 
 class AccountAllYear {
