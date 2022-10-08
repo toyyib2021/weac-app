@@ -3,7 +3,8 @@ package com.example.repository.physics
 import com.example.repository.Objective
 import com.example.repository.Questions
 
-class PhysicsRepository {
+class Physics2019Repository {
+
     val physics2019 = listOf<Questions>(
         Questions( objective = Objective( "1", "", "", "",
             "The time rate of increase in velocity is called",
@@ -11,7 +12,7 @@ class PhysicsRepository {
             "B. momentum",
             "C. acceleration",
             "D. speed",
-            "C. acceleration")
+            "C. acceleration", "C")
         ),
 
 
@@ -21,7 +22,7 @@ class PhysicsRepository {
             "B. Momentum",
             "C. Energy",
             "D. Speed",
-            "B. Momentum")
+            "B. Momentum", "D")
         ),
 
 
@@ -31,7 +32,7 @@ class PhysicsRepository {
             "B. kinetic energy",
             "C. potential energy",
             "D. speed",
-            "B. kinetic energy")
+            "B. kinetic energy", "B")
         ),
 
         Questions( objective = Objective( "4", "", "", "",
@@ -40,7 +41,7 @@ class PhysicsRepository {
             "B. Lenz's law",
             "C. Faraday's law",
             "D. Ampere's law",
-            "B. Lenz's law")
+            "B. Lenz's law", "B")
         ),
 
         Questions( objective = Objective( "5", "", "", "",
@@ -49,7 +50,7 @@ class PhysicsRepository {
             "B. Ebonite rod ",
             "C. Gold-leaf electroscope",
             "D. Proof planes",
-            "C. Gold-leaf electroscope")
+            "C. Gold-leaf electroscope", "C")
         ),
 
 
@@ -59,7 +60,7 @@ class PhysicsRepository {
             "B. 900 J",
             "C. 600 J",
             "D. 200 J",
-            "A. 1600 J")
+            "A. 1600 J", "A")
         ),
 
 
@@ -69,7 +70,7 @@ class PhysicsRepository {
             "B. Water waves",
             "C. Radio waves",
             "D. Sound waves",
-            "C. Radio waves")
+            "C. Radio waves", "C")
         ),
 
 
@@ -79,7 +80,7 @@ class PhysicsRepository {
             "B. elastic",
             "C. frictional",
             "D. gravitational",
-            "B. elastic")
+            "B. elastic", "B")
         ),
 
         Questions( objective = Objective( "9", "", "", "",
@@ -88,7 +89,7 @@ class PhysicsRepository {
             "B. kerosene to air",
             "C. air to water",
             "D. water to ice",
-            "C. air to water")
+            "C. air to water", "C")
         ),
 
 
@@ -98,7 +99,7 @@ class PhysicsRepository {
             "B. conduction and convection only",
             "C. radiation and convection only",
             "D. conduction only",
-            "B. conduction and convection only")
+            "B. conduction and convection only", "B")
         ),
 
 
@@ -108,7 +109,7 @@ class PhysicsRepository {
             "B. refraction laws",
             "C. reflection laws",
             "D. mirror formula",
-            "C. reflection laws")
+            "C. reflection laws", "C")
         ),
 
 
@@ -118,7 +119,7 @@ class PhysicsRepository {
             "B. There must always be a non-zero resultant force acting on it.",
             "C. At a steady velocity, the resultant force acting on it must be equal to zero",
             "D. At a steady velocity, the air resistance must be equal to zero.",
-            "C. At a steady velocity, the resultant force acting on it must be equal to zero")
+            "C. At a steady velocity, the resultant force acting on it must be equal to zero", "C")
         ),
 
         Questions( objective = Objective( "13", "", "", "",
@@ -127,7 +128,7 @@ class PhysicsRepository {
             "B. NsIp= NpIs",
             "C. NsIs = NpIp",
             "D. IpEs = IsEp ",
-            "C. NsIs = NpIp")
+            "C. NsIs = NpIp", "C")
         ),
 
         Questions( objective = Objective( "14", "", "", "",
@@ -136,7 +137,7 @@ class PhysicsRepository {
             "B. the molecular magnets are properly aligned",
             "C. it is affected by the earth's magnetic field",
             "D. the magnetic domains are within the earth's field",
-            "A. the molecular magnets remain randomly arranged. ")
+            "A. the molecular magnets remain randomly arranged. ",  "A")
         ),
 
 
@@ -146,7 +147,7 @@ class PhysicsRepository {
             "B. B",
             "C. C",
             "D. D",
-            "B. B")
+            "B. B", "B")
         ),
 
         Questions( objective = Objective( "16", "", "", "",
@@ -155,7 +156,7 @@ class PhysicsRepository {
             "B. increase the pressure above the mercury. ",
             "C. cool the mercury and make it contract.",
             "D. decrease the pressure above the mercury",
-            "B. increase the pressure above the mercury")
+            "B. increase the pressure above the mercury", "B")
         ),
 
 
@@ -165,7 +166,7 @@ class PhysicsRepository {
                 "B. 20.16 kJ",
                 "C. 40.32 kJ",
                 "D. 22.17 kJ",
-                "C. 40.32 kJ")
+                "C. 40.32 kJ", "C")
             ),
 
             Questions( objective = Objective( "18", "", "", "",
@@ -174,7 +175,7 @@ class PhysicsRepository {
                 "B. 25 oC",
                 "C. 30oC",
                 "D. 57 oC",
-                "D. 57 oC")
+                "D. 57 oC", "D")
             ),
 
             Questions( objective = Objective( "19", "", "", "",
@@ -183,7 +184,7 @@ class PhysicsRepository {
                 "B. 0.30 m",
                 "C. 0.83 m",
                 "D. 1.20 m",
-                "D. 1.20 m")
+                "D. 1.20 m", "D")
             ),
 
 
@@ -193,7 +194,7 @@ class PhysicsRepository {
                 "B. Brass",
                 "C. Water",
                 "D. Wood ",
-                "A. Air")
+                "A. Air", "A")
             ),
 
 
@@ -209,7 +210,7 @@ class PhysicsRepository {
                 "B. ll and ll only",
                 "C. l and lII only",
                 "D. I and II only",
-                "A. I, II and Ill")
+                "A. I, II and Ill", "A")
             ),
 
             Questions( objective = Objective( "22", "", "", "",
@@ -218,7 +219,7 @@ class PhysicsRepository {
                 "B. B",
                 "C. C",
                 "D. D",
-                "B. B")
+                "B. B", "B")
             ),
 
             Questions( objective = Objective( "23", "", "", "",
@@ -227,7 +228,7 @@ class PhysicsRepository {
                 "B. 8 km hr−1",
                 "C. 40 km hr−1 ",
                 "D. 56 km hr−1",
-                "D. 56 km hr−1")
+                "D. 56 km hr−1", "D")
             ),
 
             Questions( objective = Objective( "24", "", "", "",
@@ -236,7 +237,7 @@ class PhysicsRepository {
                 "B. quartered",
                 "C. halved",
                 "D. doubled",
-                "B. quartered")
+                "B. quartered", "B")
             ),
 
 
@@ -246,7 +247,9 @@ class PhysicsRepository {
                 "B.  the maximum temperature at night and minimum temperature during the day from the last reset",
                 "C. the maximum temperature at night and minimum temperature during the day at all times",
                 "D. the maximum temperature during the day and minimum temperature at night from the last reset",
-                "D. the maximum temperature during the day and minimum temperature at night from the last reset")
+                "D. the maximum temperature during the day and minimum temperature at night from the last reset",
+                "D"
+            )
             ),
 
 
@@ -256,7 +259,7 @@ class PhysicsRepository {
                 "B. armature with a commutator",
                 "C. commutator with slip rings",
                 "D. slip rings with a commutator",
-                "D. slip rings with a commutator")
+                "D. slip rings with a commutator", "D")
             ),
 
 
@@ -266,7 +269,7 @@ class PhysicsRepository {
                 "B. It loses its magnetism readily",
                 "C. It is not easily magnetized",
                 "D. It retains its magnetism for a long time",
-                "B. It loses its magnetism readily")
+                "B. It loses its magnetism readily", "B")
             ),
 
         Questions( objective = Objective( "28", "", "", "",
@@ -275,7 +278,7 @@ class PhysicsRepository {
                     "B. 10.0 cm",
                     "C. 28.6 cm",
                     "D. 57.2 cm",
-                    "D. 57.2 cm")
+                    "D. 57.2 cm", "D")
         ),
 
 
@@ -285,7 +288,7 @@ class PhysicsRepository {
                     "B. Ammeter",
                     "C. Potentiometer",
                     "D. Capacitor",
-                    "D. Capacitor")
+                    "D. Capacitor", "D")
                 ),
 
 
@@ -297,7 +300,7 @@ class PhysicsRepository {
                     "B. 8.55 x 103 rad s−1",
                     "C. 9.11 x 1013 rad s−1",
                     "D. 5.22 x 1015 rad s−1",
-                    "A. 3.28 x 1016 rad s−1")
+                    "A. 3.28 x 1016 rad s−1", "A")
                 ),
 
                 Questions( objective = Objective( "31", "", "", "",
@@ -306,7 +309,7 @@ class PhysicsRepository {
                     "B. 6.0 x 10−8N",
                     "C. 3.0 x 10−14N",
                     "D. 1.3 x 10−26N",
-                    "B. 6.0 x 10−8N")
+                    "B. 6.0 x 10−8N", "B")
                 ),
 
 
@@ -316,7 +319,7 @@ class PhysicsRepository {
                     "B. 12,000 Ω",
                     "C. 20.0Ω",
                     "D. 144Ω",
-                    "D. 144Ω")
+                    "D. 144Ω", "D")
                 ),
 
 
@@ -326,7 +329,7 @@ class PhysicsRepository {
                     "B. Wavelength",
                     "C. Velocity",
                     "D. Frequency",
-                    "D. Frequency ")
+                    "D. Frequency ", "D")
                 ),
 
                 Questions( objective = Objective( "34", "", "", "",
@@ -335,7 +338,7 @@ class PhysicsRepository {
                     "B. 0 °C to 4 °C",
                     "C. 4 °C to 100 C",
                     "D. -4 °C to 0 °C",
-                    "B. 0 °C to 4 °C")
+                    "B. 0 °C to 4 °C", "B")
                 ),
 
         Questions( objective = Objective( "35", "", "", "",
@@ -344,7 +347,7 @@ class PhysicsRepository {
                         "B. 19.5°",
                         "C. 20.0 ",
                         "D. 45.0",
-                        "B. 19.5")
+                        "B. 19.5", "B")
         ),
 
 
@@ -354,7 +357,7 @@ class PhysicsRepository {
                         "B. 12.0346 cm3",
                         "C. 12.0288 cm3",
                         "D. 12.0173 cm3",
-                        "C. 12.0288 cm3")
+                        "C. 12.0288 cm3", "C")
                     ),
 
 
@@ -364,7 +367,7 @@ class PhysicsRepository {
                         "B. 1.3 x 103N",
                         "C. 2.3 x 103N",
                         "D. 5.0x 103N",
-                        "A. 1.6 x 10−9N")
+                        "A. 1.6 x 10−9N", "A")
                     ),
 
 
@@ -374,7 +377,7 @@ class PhysicsRepository {
                         "B. X",
                         "C. Y",
                         "D. W",
-                        "A. z")
+                        "A. z", "A")
                     ),
 
                     Questions( objective = Objective( "39", "", "", "",
@@ -383,7 +386,7 @@ class PhysicsRepository {
                         "B. Alcohol-in-glass thermometer",
                         "C. Gas thermometer",
                         "D. Platinum resistance thermometer",
-                        "B. Alcohol-in-glass thermometer")
+                        "B. Alcohol-in-glass thermometer", "B")
                     ),
 
 
@@ -393,7 +396,7 @@ class PhysicsRepository {
                         "B. 1 period",
                         "C. 11/2 periods",
                         "D. 114 periods",
-                        "C. 11/2 periods")
+                        "C. 11/2 periods", "C")
                     ),
 
 
@@ -403,7 +406,7 @@ class PhysicsRepository {
                         "B. Earth wire",
                         "C. Fuse",
                         "D. Switch",
-                        "A. Connecting wires")
+                        "A. Connecting wires", "A")
                     ),
 
 
@@ -413,7 +416,7 @@ class PhysicsRepository {
                         "B. Cold water",
                         "C. Hot water",
                         "D. oily water ",
-                        "B. Cold water")
+                        "B. Cold water", "B")
                     ),
 
 
@@ -423,7 +426,7 @@ class PhysicsRepository {
                         "B. 330",
                         "C. 165",
                         "D. 146",
-                        "D. 146")
+                        "D. 146", "D")
                     ),
 
                     Questions( objective = Objective( "44", "", "", "",
@@ -432,7 +435,7 @@ class PhysicsRepository {
                         "B. hydrometer",
                         "C. pyrometer",
                         "D. manometer",
-                        "A. hygrometer")
+                        "A. hygrometer", "A")
                     ),
 
 
@@ -442,7 +445,7 @@ class PhysicsRepository {
                         "B. acceleration",
                         "C. moment",
                         "D. distance",
-                        "D. distance")
+                        "D. distance", "D")
                     ),
 
 
@@ -452,7 +455,7 @@ class PhysicsRepository {
                         "B. number of electrons is equal to that of neutron",
                         "C. number of neutrons is equal to that of protons",
                         "D. number of protons is equal to that of electrons.",
-                        "D. number of protons is equal to that of electrons.")
+                        "D. number of protons is equal to that of electrons.", "D")
                     ),
 
 
@@ -462,7 +465,7 @@ class PhysicsRepository {
                         "B. Polarization",
                         "C. Interference",
                         "D. Reflection",
-                        "B. Polarization")
+                        "B. Polarization", "B")
                     ),
 
 
@@ -472,7 +475,7 @@ class PhysicsRepository {
                         "B. protons",
                         "C. photoelectrons",
                         "D. photons",
-                        "C. photoelectrons")
+                        "C. photoelectrons", "C")
                     ),
 
 
@@ -482,7 +485,7 @@ class PhysicsRepository {
                         "B. within an atom, there are certain allowed orbits",
                         "C. all of the orbits represent the same amount of energy",
                         "D. The orbit with the least energy is the farthest from the nucleus",
-                        "B. within an atom, there are certain allowed orbits")
+                        "B. within an atom, there are certain allowed orbits", "B")
                     ),
 
 
@@ -493,7 +496,8 @@ class PhysicsRepository {
                         "B. Evaporation and solidification",
                         "C. Melting and boiling",
                         "D. Condensation and evaporation",
-                    ""
+                        "C. Melting and boiling",
+                    "C"
                     )
                     ),
 

@@ -3,7 +3,9 @@ package com.example.repository.english
 import com.example.repository.Objective
 import com.example.repository.Questions
 
-class EnglishRepo {
+
+class English2013Repo {
+
     private val section1 = "In the sentence below, there is one underlined word and one gap. From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the underlined word and that will, at the same time correctly fill the gap in the sentence."
     private val section2 = "From the words lettered A to D, choose the word that best completes each of the following sentences"
     private val section3 = "After each of the following sentences, a list of possible interpretations of the sentence is given. Choose the interpretation that you consider most appropriate for each sentence."
@@ -24,7 +26,7 @@ class EnglishRepo {
     
         """.trimIndent()
 
-    private val english2013 = listOf<Questions>(
+    val english2013 = listOf<Questions>(
 
         Questions( objective = Objective(
             "1",
@@ -37,6 +39,7 @@ class EnglishRepo {
             "C. unskillful",
             "D. foolish",
             "B. crude",
+            "B",
             "refined ",
             "but his brother is rather .......",
         )
@@ -54,6 +57,7 @@ class EnglishRepo {
             "C. vogue",
             "D. custody",
             "B. existence",
+            "B",
             "extinction ",
             "in The Gambia but monkeys are still in .......",
         )),
@@ -70,6 +74,7 @@ class EnglishRepo {
             "C. vague",
             "D. irrelevant",
             "C. vague",
+            "C",
             "explicit ",
             "but mine was .....",
         )),
@@ -85,6 +90,7 @@ class EnglishRepo {
             "C. clumsy",
             "D. alterable",
             "D. alterable",
+            "D",
             "unalloyed",
             "and not a ....loyalty from his soldiers.",
         )),
@@ -101,6 +107,7 @@ class EnglishRepo {
             "C. clarity",
             "D. verbosity",
             "D. verbosity",
+            "D",
             "brevity",
             "of the President's speech contrasts with the ..... of the Secretary's",
         )),
@@ -116,6 +123,7 @@ class EnglishRepo {
             "C. carefully",
             "D. deliberately",
             "D. verbosity",
+            "D",
             "accidentally ",
             "and not .....",
         )),
@@ -132,6 +140,7 @@ class EnglishRepo {
             "C. confusing",
             "D. optional",
             "D. optional",
+            "D",
             "compulsory; ",
             "therefore, the rest are .....",
         )),
@@ -148,6 +157,7 @@ class EnglishRepo {
             "C. released",
             "D. sentenced",
             "A. acquitted",
+            "A",
             "convicted ",
             "the hardened criminal but .....and discharged the first offender",
         )),
@@ -164,6 +174,7 @@ class EnglishRepo {
             "C. beautiful",
             "D. cosy",
             "B. fragile",
+            "B",
             "sturdy ",
             "while those built with glass are .....",
         )),
@@ -179,6 +190,7 @@ class EnglishRepo {
             "C. kind",
             "D. efficient",
             "B. lenient",
+            "B",
             "strict ",
             "but his vice is .....",)),
 
@@ -192,7 +204,9 @@ class EnglishRepo {
             "B. accusation",
             "C. molestation",
             "D. denial",
-            "A. condemnation")),
+            "A. condemnation",
+            "A"
+        )),
 
         Questions( objective = Objective(
             "12",
@@ -204,7 +218,9 @@ class EnglishRepo {
             "B. diagnosed",
             "C. prescribed",
             "D. announced",
-            "B. diagnosed")),
+            "B. diagnosed",
+            "B"
+        )),
 
 
         Questions( objective = Objective(
@@ -217,7 +233,9 @@ class EnglishRepo {
             "B. anonymous",
             "C. ambiguous",
             "D. candid",
-            "B. anonymous")),
+            "B. anonymous",
+            "B"
+        )),
 
         Questions( objective = Objective(
             "14",
@@ -229,7 +247,7 @@ class EnglishRepo {
             "B. curious",
             "C. adamant",
             "D. candid",
-            "C. adamant")),
+            "C. adamant", "C")),
 
         Questions( objective = Objective(
             "15",
@@ -241,7 +259,7 @@ class EnglishRepo {
             "B. infringement",
             "C. order",
             "D. embargo",
-            "D. embargo")),
+            "D. embargo", "D")),
 
 
         Questions( objective = Objective(
@@ -254,7 +272,7 @@ class EnglishRepo {
             "B. jovial",
             "C. kind",
             "D. versatile",
-            "D. versatile")),
+            "D. versatile", "D")),
 
 
         Questions( objective = Objective(
@@ -267,7 +285,7 @@ class EnglishRepo {
             "B. parasites",
             "C. allies",
             "D. favourites",
-            "A. sycophants")),
+            "A. sycophants", "A")),
 
 
         Questions( objective = Objective(
@@ -280,7 +298,7 @@ class EnglishRepo {
             "B. demolition",
             "C. coronation",
             "D. re-admission",
-            "C. coronation")),
+            "C. coronation", "C")),
 
 
         Questions( objective = Objective(
@@ -293,7 +311,7 @@ class EnglishRepo {
             "B. giveaway",
             "C. walkover",
             "D. defeat",
-            "C. walkover")),
+            "C. walkover", "C")),
 
 
         Questions( objective = Objective(
@@ -306,7 +324,7 @@ class EnglishRepo {
             "B. friendly",
             "C. concerned",
             "D. busy",
-            "A. inquisitive")),
+            "A. inquisitive", "A")),
 
 
 
@@ -321,7 +339,7 @@ class EnglishRepo {
             "B. is very wicked",
             "C. cuts the grass in his field always",
             "D. is very selfish",
-            "A. does not waste time in doing things",
+            "A. does not waste time in doing things", "A"
         )),
 
         Questions( objective = Objective(
@@ -334,7 +352,7 @@ class EnglishRepo {
             "B. refunds money to her customers",
             "C. tricks her customers into accepting bad products",
             "D. pays the penalty for selling faulty goods",
-            "C. tricks her customers into accepting bad products",
+            "C. tricks her customers into accepting bad products", "C"
         )),
 
         Questions( objective = Objective(
@@ -348,6 +366,7 @@ class EnglishRepo {
             "C. has been made mad by his learning",
             "D. feels that only learning is important",
             "A. has become proud because of his learning",
+            "A"
         )),
 
 
@@ -362,6 +381,7 @@ class EnglishRepo {
             "C. many students boycotted classes",
             "D. there was noise and confusion in the school",
             "D. there was noise and confusion in the school",
+            "D"
         )),
 
 
@@ -376,6 +396,7 @@ class EnglishRepo {
             "C. gave all that he had",
             "D. could have given more",
             "C. gave all that he had",
+            "C",
         )),
 
 
@@ -390,6 +411,7 @@ class EnglishRepo {
             "C. inattentive",
             "D. cautious",
             "B. inexperienced",
+            "B",
         )),
 
         Questions( objective = Objective(
@@ -403,6 +425,7 @@ class EnglishRepo {
             "C. was selfish",
             "D. went to the gallery",
             "B. attempted to win cheap popularity",
+            "B",
         )),
 
 
@@ -417,6 +440,7 @@ class EnglishRepo {
             "C. they are under an illusion",
             "D. they are almost insane",
             "C. they are under an illusion",
+            "C"
         )),
 
 
@@ -431,6 +455,7 @@ class EnglishRepo {
             "C. hopes to achieve two aims with one action",
             "D. intends to do two things at the same time",
             "C. hopes to achieve two aims with one action",
+            "C",
         )),
 
 
@@ -445,6 +470,7 @@ class EnglishRepo {
             "C. their real character",
             "D. how noble they are",
             "C. their real character",
+            "C",
         )),
 
 
@@ -459,6 +485,7 @@ class EnglishRepo {
             "C. lonely",
             "D. harsh",
             "C. lonely",
+            "C",
             "solitary ",
             "confinement.")),
 
@@ -475,6 +502,7 @@ class EnglishRepo {
             "C. deceptive",
             "D. interesting",
             "B. intricate",
+            "B",
             "alluring ",
             "personality.")),
 
@@ -491,6 +519,7 @@ class EnglishRepo {
             "C. necessary",
             "D. harmful",
             "D. harmful",
+            "D",
             "detrimental  ",
             "to health.")),
 
@@ -506,6 +535,7 @@ class EnglishRepo {
             "C. permanent",
             "D. unyielding",
             "D. unyielding",
+            "D",
             "inflexible ",
             "once he has taken a decision.")),
 
@@ -522,6 +552,7 @@ class EnglishRepo {
             "C. unpredictable",
             "D. queer",
             "B. offensive",
+            "B",
             "obnoxious ",
             "remarks.")),
 
@@ -538,6 +569,7 @@ class EnglishRepo {
             "C. cajole",
             "D. force",
             "B. persuade",
+            "B",
             "prevail upon ",
             "Kwesi to accept the job")),
 
@@ -554,6 +586,7 @@ class EnglishRepo {
             "C. a strenuous",
             "D. an enjoyable",
             "C. a strenuous",
+            "C",
             "an arduous ",
             "task ahead of it.")),
 
@@ -570,6 +603,7 @@ class EnglishRepo {
             "C. immediately",
             "D. simultaneously",
             "D. simultaneously",
+            "D",
             "concurrently")),
 
 
@@ -584,6 +618,7 @@ class EnglishRepo {
             "C. inspect",
             "D. return",
             "A. re-examine",
+            "A",
             "review ",
             "their assignments.")),
 
@@ -600,6 +635,7 @@ class EnglishRepo {
             "C. determination",
             "D. ability",
             "B. energy",
+            "B",
             "stamina ",
             "to run that race.")),
 
@@ -615,6 +651,7 @@ class EnglishRepo {
             "C. little",
             "D. a little",
             "D. a little",
+            "D",
         )),
 
 
@@ -629,6 +666,7 @@ class EnglishRepo {
             "C. broke through",
             "D. broke out",
             "D. broke out",
+            "D"
         )),
 
         Questions( objective = Objective(
@@ -642,6 +680,7 @@ class EnglishRepo {
             "C. with",
             "D. in",
             "D. in",
+            "D",
         )),
 
 
@@ -656,6 +695,7 @@ class EnglishRepo {
             "C. will not have",
             "D. would have not",
             "A. would have",
+            "A",
         )),
 
 
@@ -671,6 +711,7 @@ class EnglishRepo {
             "C. in",
             "D. within",
             "C. in",
+            "C"
         )),
 
 
@@ -685,6 +726,7 @@ class EnglishRepo {
             "C. down",
             "D. of",
             "A. off",
+            "A",
         )),
 
 
@@ -699,6 +741,7 @@ class EnglishRepo {
             "C. Everyone",
             "D. Each one",
             "B. No one",
+            "B",
         )),
 
 
@@ -712,7 +755,8 @@ class EnglishRepo {
             "B. was",
             "C. were",
             "D. are",
-            "B. was"
+            "B. was",
+            "B",
         )),
 
 
@@ -727,6 +771,7 @@ class EnglishRepo {
             "C. hasn't he",
             "D. isn't it",
             "C. hasn't he",
+            "C",
         )),
 
 
@@ -741,6 +786,7 @@ class EnglishRepo {
             "C. my",
             "D. their",
             "A. mine",
+            "A",
         )),
 
 
@@ -756,6 +802,7 @@ class EnglishRepo {
             "C. neither",
             "D. either",
             "C. neither",
+            "C",
         )),
 
 
@@ -770,6 +817,7 @@ class EnglishRepo {
             "C. by which",
             "D. to which",
             "B. where",
+            "B",
         )),
 
 
@@ -785,6 +833,7 @@ class EnglishRepo {
             "C. had left",
             "D. have left",
             "A. left",
+            "A",
         )),
 
 
@@ -799,6 +848,7 @@ class EnglishRepo {
             "C. on",
             "D. to",
             "A. for",
+            "A",
         )),
 
 
@@ -813,6 +863,7 @@ class EnglishRepo {
             "C. haven't they",
             "D. have they",
             "D. have they",
+            "D",
         )),
 
 
@@ -827,6 +878,7 @@ class EnglishRepo {
             "C. one-legged mad young man",
             "D. mad one-legged young man",
             "A. one-legged young mad man",
+            "A",
         )),
 
 
@@ -841,6 +893,7 @@ class EnglishRepo {
             "C. for",
             "D. of",
             "C. for",
+            "C",
         )),
 
 
@@ -856,6 +909,7 @@ class EnglishRepo {
             "C. each other",
             "D. himself",
             "A. themselves",
+            "A",
         )),
 
 
@@ -870,6 +924,7 @@ class EnglishRepo {
             "C. doing",
             "D. do",
             "D. do",
+            "D",
         )),
 
 
@@ -884,6 +939,7 @@ class EnglishRepo {
             "C. over",
             "D. away",
             "A. off",
+            "A",
         )),
 
 
@@ -898,6 +954,7 @@ class EnglishRepo {
             "C. fathers' in-law",
             "D. father-in-laws'",
             "A. father-in-law's",
+            "A",
         )),
 
         Questions( objective = Objective(
@@ -911,6 +968,7 @@ class EnglishRepo {
             "C. into",
             "D. by",
             "B. to",
+            "B",
         )),
 
 
@@ -925,6 +983,7 @@ class EnglishRepo {
             "C. through",
             "D. before",
             "C. through",
+            "C",
         )),
 
 
@@ -939,6 +998,7 @@ class EnglishRepo {
             "C. while",
             "D. interval",
             "B. period",
+            "B",
         )),
 
 
@@ -953,6 +1013,7 @@ class EnglishRepo {
             "C. Since",
             "D. Having",
             "D. Having",
+            "D",
         )),
 
 
@@ -970,6 +1031,7 @@ class EnglishRepo {
             "C. what",
             "D. whose",
             "A. which",
+            "A",
         )),
 
 
@@ -984,6 +1046,7 @@ class EnglishRepo {
             "C. that such",
             "D. such a",
             "D. such a",
+            "D",
         )),
 
 
@@ -1000,6 +1063,7 @@ class EnglishRepo {
             "C. put up",
             "D. put back",
             "C. put up",
+            "C",
         )),
 
 
@@ -1015,6 +1079,7 @@ class EnglishRepo {
             "C. had discussed on",
             "D. were discussing",
             "B. were discussing about",
+            "B",
         )),
 
 
@@ -1030,6 +1095,7 @@ class EnglishRepo {
             "C. for",
             "D. with",
             "A. in",
+            "A",
         )),
 
 
@@ -1046,6 +1112,7 @@ class EnglishRepo {
             "C. which",
             "D. who",
             "A. that",
+            "A",
         )),
 
 
@@ -1062,6 +1129,7 @@ class EnglishRepo {
             "C. with",
             "D. among",
             "B. in",
+            "B",
         )),
 
 
@@ -1078,6 +1146,7 @@ class EnglishRepo {
             "C. nevertheless",
             "D. moreover",
             "C. nevertheless",
+            "C",
         )),
 
 
@@ -1094,6 +1163,7 @@ class EnglishRepo {
         "C. head of states",
         "D. head of state",
         "A. heads of states",
+            "A",
     )),
 
 
@@ -1109,6 +1179,7 @@ class EnglishRepo {
         "C. she did",
         "D. didn't she",
         "D. didn't she",
+            "D"
         )),
 
 
@@ -1124,6 +1195,7 @@ class EnglishRepo {
         "C. methods",
         "D. transactions",
         "B. operations",
+            "B"
         )),
 
 
@@ -1139,6 +1211,7 @@ class EnglishRepo {
             "C. action",
             "D. sale",
             "A. offer",
+                "A",
             )),
 
 
@@ -1153,6 +1226,7 @@ class EnglishRepo {
             "C. brokers",
             "D. marketers",
             "C. brokers",
+                "C",
             )),
 
 
@@ -1167,6 +1241,7 @@ class EnglishRepo {
             "C. notice",
             "D. certificate",
             "D. certificate",
+                "D",
             )),
 
 
@@ -1181,6 +1256,7 @@ class EnglishRepo {
             "C. money",
             "D. payment",
             "A. dividend",
+                "A",
             )),
 
 
@@ -1197,6 +1273,7 @@ class EnglishRepo {
             "C. creditors",
             "D. shareholders",
             "A. buyers",
+                "A",
             )),
 
 
@@ -1212,6 +1289,7 @@ class EnglishRepo {
             "C. value",
             "D. units",
             "B. profit",
+                "B",
             )),
 
 
@@ -1226,6 +1304,7 @@ class EnglishRepo {
             "C. shares",
             "D. receipts",
             "C. shares",
+                "C",
             )),
 
 
@@ -1241,6 +1320,7 @@ class EnglishRepo {
             "C. elusive",
             "D. unstable",
             "D. unstable",
+                "D",
             )),
 
 
@@ -1255,6 +1335,7 @@ class EnglishRepo {
             "C. slips",
             "D. drops",
             "A. falls",
+                "A",
             )),
 
 
@@ -1269,6 +1350,7 @@ class EnglishRepo {
             "C. professions",
             "D. duties",
             "C. professions",
+                "C",
             )),
 
             Questions( objective = Objective(
@@ -1282,6 +1364,7 @@ class EnglishRepo {
             "C. groups",
             "D. individuals",
             "C. groups",
+                "C",
             )),
 
 
@@ -1297,6 +1380,7 @@ class EnglishRepo {
             "C. force",
             "D. allow",
             "B. motivate",
+                "B",
             )),
 
 
@@ -1313,6 +1397,7 @@ class EnglishRepo {
             "C. enforcement",
             "D. evolution",
             "A. attainment",
+                "A",
             )),
 
 
@@ -1327,6 +1412,7 @@ class EnglishRepo {
             "C. naming",
             "D. initiation",
             "D. initiation",
+                "D",
             )),
 
 
@@ -1342,6 +1428,7 @@ class EnglishRepo {
             "C. exclusive",
             "D. privileged",
             "B. special",
+                "B",
             )),
 
 
@@ -1357,6 +1444,7 @@ class EnglishRepo {
             "C. menu",
             "D. meal",
             "D. meal",
+                "D",
             )),
 
 
@@ -1371,6 +1459,7 @@ class EnglishRepo {
             "C. peer",
             "D. sex",
             "C. peer",
+                "C",
             )),
 
 
@@ -1386,6 +1475,7 @@ class EnglishRepo {
             "C. organized",
             "D. shaped",
             "C. organized",
+                "C",
             )),
 
 
@@ -1401,6 +1491,7 @@ class EnglishRepo {
             "C. method",
             "D. prefects",
             "A. hierarchy",
+                "A",
             )),
 
 
@@ -1416,6 +1507,7 @@ class EnglishRepo {
             "C. pupils",
             "D. prefects",
             "D. prefects",
+                "D",
             )),
 
 
@@ -1431,6 +1523,7 @@ class EnglishRepo {
             "C. curriculum",
             "D. calendar",
             "A. timetable",
+                "A",
             )),
 
 
@@ -1446,6 +1539,7 @@ class EnglishRepo {
             "C. creating",
             "D. repairing",
             "B. shaping",
+                "B",
             )),
 
 
@@ -1460,6 +1554,7 @@ class EnglishRepo {
             "C. learning",
             "D. objective",
             "A. behaviour",
+                "A",
 
             )),
 
@@ -1477,6 +1572,7 @@ class EnglishRepo {
         "C. place",
         "D. society",
         "D. society",
+            "D"
         )),
 
 
@@ -1486,7 +1582,5 @@ class EnglishRepo {
 
     )
 
-    val englishYear = listOf<List<Questions>>(
-        english2013
-    )
+
 }

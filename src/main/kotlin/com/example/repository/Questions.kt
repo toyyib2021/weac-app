@@ -20,7 +20,8 @@ data class Objective(
     val optionB: String,
     val optionC: String,
     val optionD: String,
-    val answer: String,
+    val explanation: String,
+    val correctOption: String,
     val questionUnderline: String = "",
     val questionEnd: String = "",
 )
