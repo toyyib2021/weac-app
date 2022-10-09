@@ -1,19 +1,19 @@
 package com.example.repository.mathematics
 
-import com.example.repository.Subjects
+import com.example.repository.Maths
 
 
 class MathsAllYear {
 
-    fun mathsAllYear(): List<Subjects> {
+    fun mathsAllYear(): List<Maths> {
 
         val maths2012Repo = Maths2012Repo()
 
-        val mathsAllYear = listOf<Subjects>(
+        val mathsAllYear = listOf<Maths>(
 
-            Subjects(
+            Maths(
                 year = "2012",
-                subject = maths2012Repo.maths2012
+                maths = maths2012Repo.maths2012
             )
         )
 

@@ -1,19 +1,18 @@
 package com.example.repository.english
 
-import com.example.repository.Subjects
+import com.example.repository.English
 
 
 class EnglishAllYear {
 
-    fun englishAllYear(): List<Subjects> {
+    fun englishAllYear(): List<English> {
 
         val english2013 = English2013Repo()
 
-        val englishAllYear = listOf<Subjects>(
-
-            Subjects(
+        val englishAllYear = listOf<English>(
+            English(
                 year = "2013",
-                subject = english2013.english2013
+                english = english2013.english2013
             )
         )
 
