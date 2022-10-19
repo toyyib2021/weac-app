@@ -1,0 +1,436 @@
+package com.example.repository.chemistry
+
+import com.example.repository.Objective
+import com.example.repository.Questions
+
+class Chemistry2014Repo {
+
+    val chemistry2014 = listOf<Questions>(
+
+        Questions( objective = Objective( "1", "", "", "",
+            "The shape of CH4 is",
+            "A. linear",
+            "B. planar",
+            "C. pyramidal",
+            "D. tetrahedral",
+            "D. tetrahedral", "D")
+        ),
+
+
+        Questions( objective = Objective( "2", "", "", "",
+            "The crystal layers in graphite are held together by",
+            "A. covalent bond",
+            "B. electrostatic forces",
+            "C. ionic bond",
+            "D. van der Waal's forces",
+            "A. covalent bond", "A")),
+
+
+
+        Questions( objective = Objective( "3", "", "", "",
+            "Hydrogen bonds are formed between molecules containing a hydrogen atom bonded to a",
+            "A. strongly electronegative atom",
+            "B. non-polar species",
+            "C. diatomic element",
+            "D. complex ion",
+            " A. strongly electronegative atom", "A")),
+
+
+        Questions( objective = Objective( "4", "", "", "4",
+            "The two elements 11X and 19Y are in the same group because they have the same",
+            "A. valence electrons",
+            "B. ionization energy",
+            "C. number of shell",
+            "D. atomic size",
+            "A. valence electrons", "A")),
+
+        Questions( objective = Objective( "5", "", "", "",
+            "Which of the following processes is used in food preservation in an industry?",
+            "A. Carbon dating",
+            "B. Irradiation of gamma rays",
+            "C. Nuclear fission",
+            "D. Nuclear fusion",
+            "B. Irradiation of gamma rays", "B")),
+
+        Questions( objective = Objective( "6", "", "", "",
+            "Which of the following arrangements is in decreasing order of atomic radius?",
+            "A. Li>Be>C>",
+            "B. Li>B>Be>C",
+            "C. Li>Be>B>C",
+            "D. C>B>Be>Li",
+            "C. Li>Be>B>C", "C")),
+
+        Questions( objective = Objective( "7", "", "", "7",
+            "The electron configuration of Fe263+ is?",
+            "A. [Ar]4s23d6",
+            "B. [AR]4s23d3",
+            "C. [AR]4s13d4",
+            "D. [AR]4s03d5",
+            "D. [AR]4s03d5", "D")),
+
+        Questions( objective = Objective( "8", "", "", "",
+            "Which of the following transition metals is not attracted to external magnetic field?",
+            "A. Cu",
+            "B. Fe",
+            "C. Ti",
+            "D. Zn",
+            "D. Zn", "D")),
+
+        Questions( objective = Objective( "9", "", "", "9",
+            "An atom W has 17 electrons and 18 neutrons. Which of the following representations of the atom is correct?",
+            "A. 1718W",
+            "B. 1817W",
+            "C. 3517W",
+            "D. 3518W",
+            " C. 3517W", "C")),
+
+
+        Questions( objective = Objective( "10", "", "", "",
+            "The relative atomic mass of chlorine is not a whole number because",
+            "A. it is the weighted average mass of all its various isotopes",
+            "B. it is the average mass of all the isotopes of the element",
+            "C. the element has strong oxidizing ability",
+            "D. the atom contains a higher number of neutrons than protons",
+            "A. it is the weighted average mass of all its various isotopes", "A")),
+
+            Questions( objective = Objective( "11", "", "", "11",
+                "NH4- is formed from NH3 and H- by",
+                "A. covalent bonding",
+                "B. dative bonding",
+                "C. hydrogen bonding",
+                "D. ionic bonding",
+                "B. dative bonding", "B")),
+
+            Questions( objective = Objective( "12", "", "", "",
+                "How many lone pair (s) of electrons is present in HF?",
+                "A. o",
+                "B. 1",
+                "C. 2",
+                "D. 3",
+                "D. 3", "D")),
+
+
+            Questions( objective = Objective( "13", "", "", "",
+                "An aqueous solution of Na2CO3 is",
+                "A. acidic",
+                "B. alkaline",
+                "C. amphoteric",
+                "D. neutral",
+                "B. alkaline", "B")),
+
+            Questions( objective = Objective( "14", "", "", "",
+                "A gaseous mixture contains 0,256 g of hydrogen and 2.00 g of oxygen. The mole ration of hydrogen to oxygen in the mixture is (H=1.00; O=16,0)",
+                "A. 1:1",
+                "B. 2:1",
+                "C. 1:4",
+                "D. 8:1",
+                "B. 2:1", "B")),
+
+
+            Questions( objective = Objective( "15", "", "", "15",
+                "If 0.20 mol dm-3 NaOH(aq) was evaporated to yield 5.0g of solid NaOH, calculate the volume of NaOH (aq) used. (Na = 23.0,O = 16:0; H = 1.00)",
+                "A. 600cm-3",
+                "B. 625cm3",
+                "C. 10003",
+                "D. 1600 cm 3",
+                "B. 625cm3", "B")),
+
+            Questions( objective = Objective( "16", "", "", "",
+                "The oxidation number of sulphur in Fe2(SO4)3 is",
+                "A. +2.",
+                "B. +3",
+                "C. +4.",
+                "D. +6.",
+                "D. +6.", "D")),
+
+            Questions( objective = Objective( "17", "", "", "17",
+                "The mass of 800cm3 of gas Q at s.t.p. is 1.0g. What is the molar mass of Q? [Avogadros constant = 22.4dm3 mol-1`]",
+                "A. 18.0 gmol-1",
+                "B. 22,4gmol-1",
+                "C. 28.0gmol-1",
+                "D. 36.0 gmol-1",
+                "C. 28.0gmol-1", "C")),
+
+
+            Questions( objective = Objective( "18", "", "", "18",
+                "A compound U melts at 82oc and boils at 113oc. If U was found to be insoluble in water, a mixture of U in water could best be seperated by",
+                "A. chromatography",
+                "B. sublimation",
+                "C. filtration",
+                "D. the use of seperating funnel",
+                "C. filtration", "C")),
+
+            Questions( objective = Objective( "19", "", "", "",
+                "The  set-up below can be used to demonstrate",
+                "A. diffusion",
+                "B. dissolution",
+                "C. evaporation",
+                "D. sublimation",
+                "A. diffusion", "A")),
+
+            Questions( objective = Objective( "20", "", "", "",
+                "Which of the following statements about a chemical system in equilibrium is correct/ The",
+                "A. reaction is irreversible",
+                "B. reaction goes to completion",
+                "C. equilibrium is re-established when a stress is applied",
+                "D. equilibrium position is affected by catalyst",
+                "A. reaction is irreversible", "A")),
+
+            Questions( objective = Objective( "21", "", "", "",
+                "Which of the following relationships correctly expresses the Boyle's law?",
+                "A. P α V at constant T",
+                "B. V α T at constant P",
+                "C. P α 1/V at constant T",
+                "D. V α 1T at constant P",
+                "C. P α 1/V at constant T", "C")),
+
+            Questions( objective = Objective( "22", "", "", "",
+                "The vapour pressure of a given volume of liquid increase when the",
+                "A. liquid becomes saturated with a salt",
+                "B. Volume of the liquid increases",
+                "C. temperature of the liquid falls",
+                "D. temperature of the Liquid rises",
+                "D. temperature of the Liquid rises", "D")),
+
+            Questions( objective = Objective( "23", "", "", "",
+                "Which of the following statements about volatile liquids is correct? They have",
+                "A. high vapour pressure and low boiling point",
+                "B. high vapour pressure and high boling point",
+                "C. low vapour pressure and low boining point",
+                "D. low vapour pressure and high boiling point",
+                "B. high vapour pressure and high boling point", "B")),
+
+            Questions( objective = Objective( "24", "", "", "",
+                "The type of energy changes that accompany the mixing of a strong acid to a strong base is",
+                "A. electrical",
+                "B. heat",
+                "C. light",
+                "D. sound",
+                "B. heat", "B")),
+
+
+            Questions( objective = Objective( "25", "", "", "",
+                "Zinc oxide is said to be amphoteric because it",
+                "A. forms an acid salt",
+                "B. is an insoluble base",
+                "C. forms a double salt",
+                "D. reacts with a base or an acid",
+                "D. reacts with a base or an acid", "D")),
+
+
+            Questions( objective = Objective( "26", "", "", "26",
+                "Which of the following substances with the corresponding pH value is an alkali? " +
+                        "Substance pH",
+                "A. Lime 2.4",
+                "B. Banana 4.6",
+                "C. Distilled water 7.0",
+                "D. Milk of magnesia 10.5",
+                "D. Milk of magnesia 10.5", "D")),
+
+
+            Questions( objective = Objective( "27", "", "", "27",
+                "The gases produced when Cu(NO3)2(s) was heated are",
+                "A. NO and NO2",
+                "B. O2 and NO",
+                "C. NO2 and N2O4",
+                "D. O2 and NO2",
+                "D. O2 and NO2", "D")),
+
+
+            Questions( objective = Objective( "28", "", "", "28",
+                "Which of the following salts on hydrolysis would give an alkaline solution?",
+                "A. NH4CI(s)",
+                "B. AICI3(s)",
+                "C. CH3COONa(s)",
+                "D. NH4NO3(s)",
+                "C. CH3COONa(s)", "C")),
+
+            Questions( objective = Objective( "29", "", "", "29",
+                "Consider the reaction represented by the following equation: Na2CO3(aq) + 2HCl(aq) ⟶ 2NaCl(aq) + H2O(l) + CO2(g) . What volume of 0.02 mol dm-3 Na2CO3(aq) would be required to completely neutralize 40 cm3 of 0.10 mol dm-3 HCl(aq)?",
+                "A. 200 cm3",
+                "B. 100 cm3",
+                "C. 40 cm3",
+                "D. 20 cm3",
+                "B. 100 cm3", "B")),
+
+            Questions( objective = Objective( "30", "", "", "30",
+                "In which of the following experimental set-ups would the rate of evolution of hydrogen gas be fastest?",
+                " A.",
+                "B. ",
+                " C ",
+                " D ",
+                "D ", "D")),
+
+            Questions( objective = Objective( "31", "", "", "",
+                "Which of the following factors would affect the equilibrium constant?",
+                "A. Concentration",
+                "B. Temperature",
+                "C. Pressure",
+                "D. Volume",
+                "B. Temperature", "B")),
+
+            Questions( objective = Objective( "32", "", "", "32",
+                "Consider the following energy profile diagram of exothermic",
+                "A. 120kJmol -1",
+                "B. 80kJmol -1",
+                "C. 60kJmol -1",
+                "D. 40kJmol -1",
+                "C. 60kJmol -1", "C")),
+
+
+            Questions( objective = Objective( "33", "", "", "33",
+                "Consider the reaction represented by the following equation: N2(g) + 3H2(g) ⇌ 2NH3(g); ∆Hϴ = -xkJ mol-1. Which of the following conditions would increase the yield of NH3?",
+                "A. Addition of iron catalyst",
+                "B. Increase in the temperature of the system",
+                "C. Increase in the volume occupied by reactants",
+                "D. Increase in the total pressure of the system",
+                "D. Increase in the total pressure of the system", "D")),
+
+
+            Questions( objective = Objective( "34", "", "", "34",
+                "what is the funtion of manganese (IV) oxide in the reaction represented by the following equatiom=n? " +
+                        "MnO4 + 4HCl -> MnCl2 + 2H2O + Cl2",
+    "A. catalyst",
+    "B. Dehydrating agent",
+    "C. oxidizing agent",
+    "D. reducing agent",
+    "C. oxidizing agent", "C")),
+
+    Questions( objective = Objective( "35", "", "", "35",
+    "The reaction that occurs all the anode when CuSO4(aq) is electrolyzed using carbon electrode is",
+    "A. 2H - (aq) + 2e → H 2(g)",
+    "B. Cu2+ (aq) + 2e → Cu (s)",
+    "C. 4OH (aq) -4e → 2H2O(l) + O2 (g)",
+    "D. SO4(aq)2 -2e → SO 2(g) + O2(g)",
+    "C. 4OH (aq) -4e → 2H2O(l) + O2 (g)", "C")),
+
+    Questions( objective = Objective( "36", "", "", "",
+    "Reduction is the process of",
+    "A. loss of electron",
+    "B. loss of hydrogen",
+    "C. loss of oxygen",
+    "D. addition of electronegative elements",
+    "C. loss of oxygen", "C")),
+
+    Questions( objective = Objective( "37", "", "", "",
+    "Ethene molecules can be added to one another to form a long chain compound called a",
+    "A. dimer",
+    "B. monomer",
+    "C. polymer",
+    "D. trimer",
+    "C. polymer", "C")),
+
+    Questions( objective = Objective( "38", "", "", "",
+    "Which of the following compounds determines the octane rating of petrol?",
+    "A. 1,2,3 - trimethyl pentane",
+    "B. 2,3,5 - trimethyl octane",
+    "C. 2,3,5 - trimethyl pentane",
+    "D. 2,2,4 - trimethyl pentane",
+    "D. 2,2,4 - trimethyl pentane", "D")),
+
+    Questions( objective = Objective( "39", "", "", "39",
+    "Which type of reaction is illustrated by the following equation? C12H26 → 5C 2H4 + C 2H6",
+    "A. Addition",
+    "B. Cracking",
+    "C. Hydrogenation",
+    "D. Polymerization",
+    "B. Cracking", "B")),
+
+
+    Questions( objective = Objective( "40", "", "", "",
+    "The IUPAC name of the following organic compound is HOOC - COOH",
+    "A. ethan - 1, 2 -dioc acid",
+    "B. ethanoic acid",
+    "C. oxalic acid",
+    "D. propan - 1,2-dioic acid",
+    "A. ethan - 1, 2 -dioc acid", "A")),
+
+    Questions( objective = Objective( "41", "", "", "",
+    "The enzyme that catalyses the conversion of glucose te ethanol and carbon (IV) oxide is",
+    "A. diastase",
+    "B. maltase",
+    "C. ptyalin",
+    "D. zymase",
+    "D. zymase", "D")),
+
+
+    Questions( objective = Objective( "42", "", "", "",
+    "A colourless hydrocarbon with a sweet smell undergoes substitution reaction. The hydrocarbon is likely to be",
+    "A. alkanol",
+    "B. benzene",
+    "C. ester",
+    "D. methane",
+    "C. ester", "C")),
+
+    Questions( objective = Objective( "43", "", "", "43",
+    "consider the reaction represented by the following equation: " +
+            "C2H4(g) + 3O2(g)  -> 2 CO2g + 2H20(g). " +
+            "How many moles of ethane would be burnt to produce 0.1 mole of water?",
+    "A. 0.05 mole",
+    "B. 0.10 mole",
+    "C. 0.20 mole",
+    "D. 2.00mole",
+    "A. 0.05 mole", "A")),
+
+    Questions( objective = Objective( "44", "", "", "44",
+    "The liquid hydrocarbon likely to be found in the fraction of crude oil used for domestic cooking is",
+    "A. C3H8",
+    "B. C 5H 12",
+    "C. C13H28",
+    "D. C20H42",
+    "A. C3H8", "A")),
+
+
+    Questions( objective = Objective( "45", "", "", "",
+    "Which of the following organic compounds could be represented by the empirical formula CH2O?",
+    "A. Ethanal",
+    "B. Ethane",
+    "C. Ethanol",
+    "D. Ethanoic acid",
+    "D. Ethanoic acid", "D")),
+
+    Questions( objective = Objective( "46", "", "", "",
+    "The production of biogas from the fermentation of waste materials is an example of",
+    "A. combustion",
+    "B. incineration",
+    "C. refining",
+    "D. recycling",
+    "D. recycling", "D")),
+
+
+    Questions( objective = Objective( "47", "", "", "",
+    "The purity of a solid sample can best be determined by its?",
+    "A. boiling point",
+    "B. melting point",
+    "C. conductivity",
+    "D. solubility",
+    "B. melting point", "B")),
+
+
+    Questions( objective = Objective( "48", "", "", "",
+    "Which of the following gases is used to retard the vaporization of the filament in a light bulb?",
+    "A. Argon",
+    "B. Helium",
+    "C. Hydrogen",
+    "D. Oxygen",
+    "A. Argon", "A")),
+
+
+    Questions( objective = Objective( "49", "", "", "",
+    "The most common process in the extraction of metals from their ore is",
+    "A. catalysis",
+    "B. electrolysis",
+    "C. oxidation",
+    "D. reduction",
+    "B. electrolysis", "B")),
+
+    Questions( objective = Objective( "50", "", "", "",
+    "The oxide from electric power station is",
+    "A. carbon (IV) oxide",
+    "B. copper (ll) oxide",
+    "C. nitrogen (IV) oxide",
+    "D. sulphur (IV) oxide",
+    "C. nitrogen (IV) oxide", "C")),
+
+    )
+}

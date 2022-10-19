@@ -6,12 +6,12 @@ import com.example.repository.Questions
 
 class English2013Repo {
 
-    private val section1 = "In the sentence below, there is one underlined word and one gap. From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the underlined word and that will, at the same time correctly fill the gap in the sentence."
-    private val section2 = "From the words lettered A to D, choose the word that best completes each of the following sentences"
-    private val section3 = "After each of the following sentences, a list of possible interpretations of the sentence is given. Choose the interpretation that you consider most appropriate for each sentence."
-    private val section4 = "From the words lettered A to D below each of the following sentences, choose the word that is nearest in meaning to the underlined word"
-    private val section5 = "From the words or group of words lettered A to D, choose the word or group of words that best completes each of the following sentences"
-    private val section6 = "In the following passages, the numbered gaps indicate missing words. Against each number in the passage, there are four options lettered A to D. choose the option that is the most suitable to fill the numbered gaps in the passages"
+     private val section1 = "In the sentence below, there is one underlined word and one gap. From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the underlined word and that will, at the same time correctly fill the gap in the sentence."
+     private val section2 = "From the words lettered A to D, choose the word that best completes each of the following sentences"
+     private val section3 = "After each of the following sentences, a list of possible interpretations of the sentence is given. Choose the interpretation that you consider most appropriate for each sentence."
+     private val section4 = "From the words lettered A to D below each of the following sentences, choose the word that is nearest in meaning to the underlined word"
+     private val section5 = "From the words or group of words lettered A to D, choose the word or group of words that best completes each of the following sentences"
+     private val section6 = "In the following passages, the numbered gaps indicate missing words. Against each number in the passage, there are four options lettered A to D. choose the option that is the most suitable to fill the numbered gaps in the passages"
 
     private val passageA2013 =
         """
